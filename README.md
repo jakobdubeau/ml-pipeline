@@ -6,15 +6,26 @@ This repository demonstrates a complete machine learning workflow for predicting
 
 ### `notebooks/01-data-audit.ipynb`
 
-cleans and standardizes raw data, handles missing values and categorical normalization, removes non-informative and redundant features, analyzes feature distributions and class balance, Produces a modeling-ready dataset.
+- Cleans and standardizes raw data
+- Handles missing values and categorical normalization
+- Removes non-informative and redundant features
+- Analyzes feature distributions and class balance
+- Produces a modeling-ready dataset
 
 ### `notebooks/02-classical-models.ipynb`
 
-Builds leakage-aware preprocessing pipelines, trains and tunes multiple classifiers, evaluates models using cross-validation, compares performance and generalization.
+- Builds leakage-aware preprocessing pipelines
+- Trains and tunes multiple classifiers
+- Evaluates models using cross-validation
+- Compares performance and generalization
 
 ### `notebooks/03-neural-network.ipynb`
 
-Trains feed-forward neural networks, analyzes overfitting and learning dynamics, applies early stopping and regularization, explores network architecture choices, compares neural networks with classical models.
+- Trains feed-forward neural networks
+- Analyzes overfitting and learning dynamics
+- Applies early stopping and regularization
+- Explores network architecture choices
+- Compares neural networks with classical models.
 
 ## How to run
 1. Open the notebooks in Jupyter/VS Code.
